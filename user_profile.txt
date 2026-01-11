@@ -1,0 +1,12 @@
+=== CANLI PROFiL TAKiBi ===
+
+TEST_KULLANICI: Adam
+--------------------
+DURUM: sistem_test_ediliyor
+--------------------
+TONE: teknik ve ciddi
+--------------------
+FAVORI_YEMEK: ne
+--------------------
+USER_NAME: Yavuz
+--------------------

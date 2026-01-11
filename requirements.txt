@@ -1,0 +1,57 @@
+# ========================================
+# ADAM 2.0 - YEREL GGUF MODEL İÇİN
+# ========================================
+
+# === YEREL LLM (GGUF) ===
+llama-cpp-python==0.2.90
+# NOT: CUDA destekli GPU varsa:
+# pip uninstall llama-cpp-python
+# CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python --force-reinstall --no-cache-dir
+
+# === NLP & EMBEDDING ===
+spacy==3.7.4
+sentence-transformers==2.7.0
+scikit-learn==1.4.2
+
+# === SPEECH (STT/TTS) ===
+openai-whisper==20231117
+torch==2.1.2
+torchaudio==2.1.2
+TTS==0.22.0
+sounddevice==0.4.6
+soundfile==0.12.1
+pygame==2.5.2
+pyaudio==0.2.14
+
+# === OCR & VISION ===
+pytesseract==0.3.10
+Pillow==10.2.0
+
+# === GUI ===
+customtkinter==5.2.2
+darkdetect==0.8.0
+
+# === SYSTEM TOOLS ===
+pywin32==306
+psutil==5.9.8
+pyperclip==1.8.2
+apscheduler==3.10.4
+
+# === DOCUMENT PROCESSING ===
+PyPDF2==3.0.1
+
+# === DATABASE ===
+# SQLite (Python'da built-in, ek kurulum gerekmez)
+
+# === UTILITIES ===
+python-dotenv==1.0.1
+colorama==0.4.6
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# === TESTING (İsteğe Bağlı) ===
+pytest==8.1.1
+
+# === LOGGING ===
+loguru==0.7.2
